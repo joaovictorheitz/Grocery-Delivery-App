@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5807984F2ABB7A1A00CD1500 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5807984E2ABB7A1A00CD1500 /* LoginScreenView.swift */; };
+		580798532ABB820A00CD1500 /* TextField1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580798522ABB820A00CD1500 /* TextField1.swift */; };
 		5842FD1C2ABB73E6009D719C /* Mercado_DeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842FD1B2ABB73E6009D719C /* Mercado_DeliveryApp.swift */; };
 		5842FD1E2ABB73E6009D719C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842FD1D2ABB73E6009D719C /* ContentView.swift */; };
 		5842FD202ABB73E9009D719C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5842FD1F2ABB73E9009D719C /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		5807984E2ABB7A1A00CD1500 /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
+		580798522ABB820A00CD1500 /* TextField1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField1.swift; sourceTree = "<group>"; };
 		5842FD182ABB73E6009D719C /* Mercado Delivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mercado Delivery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5842FD1B2ABB73E6009D719C /* Mercado_DeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercado_DeliveryApp.swift; sourceTree = "<group>"; };
 		5842FD1D2ABB73E6009D719C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				5842FD1D2ABB73E6009D719C /* ContentView.swift */,
 				5842FD462ABB74A8009D719C /* SplashScreenView.swift */,
 				5807984E2ABB7A1A00CD1500 /* LoginScreenView.swift */,
+				580798522ABB820A00CD1500 /* TextField1.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			files = (
 				5807984F2ABB7A1A00CD1500 /* LoginScreenView.swift in Sources */,
 				5842FD1E2ABB73E6009D719C /* ContentView.swift in Sources */,
+				580798532ABB820A00CD1500 /* TextField1.swift in Sources */,
 				5842FD1C2ABB73E6009D719C /* Mercado_DeliveryApp.swift in Sources */,
 				5842FD472ABB74A8009D719C /* SplashScreenView.swift in Sources */,
 			);
