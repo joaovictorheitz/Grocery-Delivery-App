@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5842FD1C2ABB73E6009D719C /* Mercado_DeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842FD1B2ABB73E6009D719C /* Mercado_DeliveryApp.swift */; };
+		5842FD1E2ABB73E6009D719C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842FD1D2ABB73E6009D719C /* ContentView.swift */; };
+		5842FD202ABB73E9009D719C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5842FD1F2ABB73E9009D719C /* Assets.xcassets */; };
+		5842FD232ABB73E9009D719C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5842FD222ABB73E9009D719C /* Preview Assets.xcassets */; };
+		5842FD2D2ABB73EA009D719C /* Mercado_DeliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842FD2C2ABB73EA009D719C /* Mercado_DeliveryTests.swift */; };
+		5842FD372ABB73EA009D719C /* Mercado_DeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842FD362ABB73EA009D719C /* Mercado_DeliveryUITests.swift */; };
+		5842FD392ABB73EA009D719C /* Mercado_DeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842FD382ABB73EA009D719C /* Mercado_DeliveryUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5842FD292ABB73EA009D719C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5842FD102ABB73E6009D719C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5842FD172ABB73E6009D719C;
+			remoteInfo = "Mercado Delivery";
+		};
+		5842FD332ABB73EA009D719C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5842FD102ABB73E6009D719C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5842FD172ABB73E6009D719C;
+			remoteInfo = "Mercado Delivery";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5842FD182ABB73E6009D719C /* Mercado Delivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mercado Delivery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5842FD1B2ABB73E6009D719C /* Mercado_DeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercado_DeliveryApp.swift; sourceTree = "<group>"; };
+		5842FD1D2ABB73E6009D719C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5842FD1F2ABB73E9009D719C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5842FD222ABB73E9009D719C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5842FD282ABB73EA009D719C /* Mercado DeliveryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mercado DeliveryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5842FD2C2ABB73EA009D719C /* Mercado_DeliveryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercado_DeliveryTests.swift; sourceTree = "<group>"; };
+		5842FD322ABB73EA009D719C /* Mercado DeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mercado DeliveryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5842FD362ABB73EA009D719C /* Mercado_DeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercado_DeliveryUITests.swift; sourceTree = "<group>"; };
+		5842FD382ABB73EA009D719C /* Mercado_DeliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercado_DeliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5842FD152ABB73E6009D719C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5842FD252ABB73EA009D719C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5842FD2F2ABB73EA009D719C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5842FD0F2ABB73E6009D719C = {
+			isa = PBXGroup;
+			children = (
+				5842FD1A2ABB73E6009D719C /* Mercado Delivery */,
+				5842FD2B2ABB73EA009D719C /* Mercado DeliveryTests */,
+				5842FD352ABB73EA009D719C /* Mercado DeliveryUITests */,
+				5842FD192ABB73E6009D719C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5842FD192ABB73E6009D719C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5842FD182ABB73E6009D719C /* Mercado Delivery.app */,
+				5842FD282ABB73EA009D719C /* Mercado DeliveryTests.xctest */,
+				5842FD322ABB73EA009D719C /* Mercado DeliveryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5842FD1A2ABB73E6009D719C /* Mercado Delivery */ = {
+			isa = PBXGroup;
+			children = (
+				5842FD1B2ABB73E6009D719C /* Mercado_DeliveryApp.swift */,
+				5842FD1D2ABB73E6009D719C /* ContentView.swift */,
+				5842FD1F2ABB73E9009D719C /* Assets.xcassets */,
+				5842FD212ABB73E9009D719C /* Preview Content */,
+			);
+			path = "Mercado Delivery";
+			sourceTree = "<group>";
+		};
+		5842FD212ABB73E9009D719C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5842FD222ABB73E9009D719C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5842FD2B2ABB73EA009D719C /* Mercado DeliveryTests */ = {
+			isa = PBXGroup;
+			children = (
+				5842FD2C2ABB73EA009D719C /* Mercado_DeliveryTests.swift */,
+			);
+			path = "Mercado DeliveryTests";
+			sourceTree = "<group>";
+		};
+		5842FD352ABB73EA009D719C /* Mercado DeliveryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5842FD362ABB73EA009D719C /* Mercado_DeliveryUITests.swift */,
+				5842FD382ABB73EA009D719C /* Mercado_DeliveryUITestsLaunchTests.swift */,
+			);
+			path = "Mercado DeliveryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5842FD172ABB73E6009D719C /* Mercado Delivery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5842FD3C2ABB73EA009D719C /* Build configuration list for PBXNativeTarget "Mercado Delivery" */;
+			buildPhases = (
+				5842FD142ABB73E6009D719C /* Sources */,
+				5842FD152ABB73E6009D719C /* Frameworks */,
+				5842FD162ABB73E6009D719C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mercado Delivery";
+			productName = "Mercado Delivery";
+			productReference = 5842FD182ABB73E6009D719C /* Mercado Delivery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5842FD272ABB73EA009D719C /* Mercado DeliveryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5842FD3F2ABB73EA009D719C /* Build configuration list for PBXNativeTarget "Mercado DeliveryTests" */;
+			buildPhases = (
+				5842FD242ABB73EA009D719C /* Sources */,
+				5842FD252ABB73EA009D719C /* Frameworks */,
+				5842FD262ABB73EA009D719C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5842FD2A2ABB73EA009D719C /* PBXTargetDependency */,
+			);
+			name = "Mercado DeliveryTests";
+			productName = "Mercado DeliveryTests";
+			productReference = 5842FD282ABB73EA009D719C /* Mercado DeliveryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5842FD312ABB73EA009D719C /* Mercado DeliveryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5842FD422ABB73EA009D719C /* Build configuration list for PBXNativeTarget "Mercado DeliveryUITests" */;
+			buildPhases = (
+				5842FD2E2ABB73EA009D719C /* Sources */,
+				5842FD2F2ABB73EA009D719C /* Frameworks */,
+				5842FD302ABB73EA009D719C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5842FD342ABB73EA009D719C /* PBXTargetDependency */,
+			);
+			name = "Mercado DeliveryUITests";
+			productName = "Mercado DeliveryUITests";
+			productReference = 5842FD322ABB73EA009D719C /* Mercado DeliveryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5842FD102ABB73E6009D719C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5842FD172ABB73E6009D719C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					5842FD272ABB73EA009D719C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5842FD172ABB73E6009D719C;
+					};
+					5842FD312ABB73EA009D719C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5842FD172ABB73E6009D719C;
+					};
+				};
+			};
+			buildConfigurationList = 5842FD132ABB73E6009D719C /* Build configuration list for PBXProject "Mercado Delivery" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5842FD0F2ABB73E6009D719C;
+			productRefGroup = 5842FD192ABB73E6009D719C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5842FD172ABB73E6009D719C /* Mercado Delivery */,
+				5842FD272ABB73EA009D719C /* Mercado DeliveryTests */,
+				5842FD312ABB73EA009D719C /* Mercado DeliveryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5842FD162ABB73E6009D719C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5842FD232ABB73E9009D719C /* Preview Assets.xcassets in Resources */,
+				5842FD202ABB73E9009D719C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5842FD262ABB73EA009D719C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5842FD302ABB73EA009D719C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5842FD142ABB73E6009D719C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5842FD1E2ABB73E6009D719C /* ContentView.swift in Sources */,
+				5842FD1C2ABB73E6009D719C /* Mercado_DeliveryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5842FD242ABB73EA009D719C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5842FD2D2ABB73EA009D719C /* Mercado_DeliveryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5842FD2E2ABB73EA009D719C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5842FD392ABB73EA009D719C /* Mercado_DeliveryUITestsLaunchTests.swift in Sources */,
+				5842FD372ABB73EA009D719C /* Mercado_DeliveryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5842FD2A2ABB73EA009D719C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5842FD172ABB73E6009D719C /* Mercado Delivery */;
+			targetProxy = 5842FD292ABB73EA009D719C /* PBXContainerItemProxy */;
+		};
+		5842FD342ABB73EA009D719C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5842FD172ABB73E6009D719C /* Mercado Delivery */;
+			targetProxy = 5842FD332ABB73EA009D719C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5842FD3A2ABB73EA009D719C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5842FD3B2ABB73EA009D719C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5842FD3D2ABB73EA009D719C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mercado Delivery/Preview Content\"";
+				DEVELOPMENT_TEAM = GC829MX293;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joaovictorheitz.Mercado-Delivery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5842FD3E2ABB73EA009D719C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mercado Delivery/Preview Content\"";
+				DEVELOPMENT_TEAM = GC829MX293;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joaovictorheitz.Mercado-Delivery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5842FD402ABB73EA009D719C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC829MX293;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joaovictorheitz.Mercado-DeliveryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mercado Delivery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mercado Delivery";
+			};
+			name = Debug;
+		};
+		5842FD412ABB73EA009D719C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC829MX293;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joaovictorheitz.Mercado-DeliveryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mercado Delivery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mercado Delivery";
+			};
+			name = Release;
+		};
+		5842FD432ABB73EA009D719C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC829MX293;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joaovictorheitz.Mercado-DeliveryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mercado Delivery";
+			};
+			name = Debug;
+		};
+		5842FD442ABB73EA009D719C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC829MX293;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joaovictorheitz.Mercado-DeliveryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mercado Delivery";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5842FD132ABB73E6009D719C /* Build configuration list for PBXProject "Mercado Delivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5842FD3A2ABB73EA009D719C /* Debug */,
+				5842FD3B2ABB73EA009D719C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5842FD3C2ABB73EA009D719C /* Build configuration list for PBXNativeTarget "Mercado Delivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5842FD3D2ABB73EA009D719C /* Debug */,
+				5842FD3E2ABB73EA009D719C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5842FD3F2ABB73EA009D719C /* Build configuration list for PBXNativeTarget "Mercado DeliveryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5842FD402ABB73EA009D719C /* Debug */,
+				5842FD412ABB73EA009D719C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5842FD422ABB73EA009D719C /* Build configuration list for PBXNativeTarget "Mercado DeliveryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5842FD432ABB73EA009D719C /* Debug */,
+				5842FD442ABB73EA009D719C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5842FD102ABB73E6009D719C /* Project object */;
+}
