@@ -7,9 +7,6 @@
 
 import SwiftUI
 
-
-
-
 struct LoginScreenView: View {
     public init(email: String = "", password: String = "") {
         self.email = email
@@ -31,7 +28,6 @@ struct LoginScreenView: View {
                     Spacer()
                 }
                 .frame(height: 290)
-                //
                 
                 HStack {
                     Text("Login")
@@ -42,13 +38,13 @@ struct LoginScreenView: View {
                 .offset(x: 40, y: -20)
                 
                 VStack(alignment: .trailing) {
-                    TextField1(label: "Email", value: $email, security: false)
+                    TextField1View(label: "Email", value: $email, security: false)
                         .padding(.bottom)
-                    TextField1(label: "Senha", value: $password, security: true)
+                    TextField1View(label: "Senha", value: $password, security: true)
                     
                     Text("Esqueceu sua senha?")
                         .foregroundColor(Color(red: 82/255, green: 204/255, blue: 109/255))
-                        .padding(.top, 2.0)
+                        .padding(.vertical, 5.0)
                 }
                 
                 HStack {
@@ -60,6 +56,11 @@ struct LoginScreenView: View {
                     .background(Color(red: 82/255, green: 204/255, blue: 109/255))
                     .cornerRadius(10)
                 }
+                
+                HStack {
+                    LoginWithView()
+                }
+                .padding(.top)
                 
                 Spacer()
             }

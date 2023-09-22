@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TextField1: View {
+struct TextField1View: View {
     public var label: String
     public var value: Binding<String>
     public var security: Bool
@@ -31,10 +31,10 @@ struct TextField1: View {
     }
 }
 
-struct TextField1_Previews: PreviewProvider {
+struct TextField1View_Previews: PreviewProvider {
     @State static private var x: String = ""
     
     static var previews: some View {
-        TextField1(label: "Email", value: $x, security: true)
+        TextField1View(label: "Email", value: $x, security: true)
     }
 }

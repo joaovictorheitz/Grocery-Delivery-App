@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5807984F2ABB7A1A00CD1500 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5807984E2ABB7A1A00CD1500 /* LoginScreenView.swift */; };
-		580798532ABB820A00CD1500 /* TextField1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580798522ABB820A00CD1500 /* TextField1.swift */; };
+		580798532ABB820A00CD1500 /* TextField1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580798522ABB820A00CD1500 /* TextField1View.swift */; };
 		5842FD1C2ABB73E6009D719C /* Mercado_DeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842FD1B2ABB73E6009D719C /* Mercado_DeliveryApp.swift */; };
 		5842FD1E2ABB73E6009D719C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842FD1D2ABB73E6009D719C /* ContentView.swift */; };
 		5842FD202ABB73E9009D719C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5842FD1F2ABB73E9009D719C /* Assets.xcassets */; };
@@ -17,6 +17,8 @@
 		5842FD372ABB73EA009D719C /* Mercado_DeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842FD362ABB73EA009D719C /* Mercado_DeliveryUITests.swift */; };
 		5842FD392ABB73EA009D719C /* Mercado_DeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842FD382ABB73EA009D719C /* Mercado_DeliveryUITestsLaunchTests.swift */; };
 		5842FD472ABB74A8009D719C /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842FD462ABB74A8009D719C /* SplashScreenView.swift */; };
+		DFAEC2C22ABDE4D800D5C143 /* DoubleRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAEC2C12ABDE4D800D5C143 /* DoubleRectangleView.swift */; };
+		DFAEC2C42ABDE74800D5C143 /* LoginWithView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAEC2C32ABDE74800D5C143 /* LoginWithView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		5807984E2ABB7A1A00CD1500 /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
-		580798522ABB820A00CD1500 /* TextField1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField1.swift; sourceTree = "<group>"; };
+		580798522ABB820A00CD1500 /* TextField1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField1View.swift; sourceTree = "<group>"; };
 		5842FD182ABB73E6009D719C /* Mercado Delivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mercado Delivery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5842FD1B2ABB73E6009D719C /* Mercado_DeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercado_DeliveryApp.swift; sourceTree = "<group>"; };
 		5842FD1D2ABB73E6009D719C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +52,8 @@
 		5842FD362ABB73EA009D719C /* Mercado_DeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercado_DeliveryUITests.swift; sourceTree = "<group>"; };
 		5842FD382ABB73EA009D719C /* Mercado_DeliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercado_DeliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5842FD462ABB74A8009D719C /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		DFAEC2C12ABDE4D800D5C143 /* DoubleRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleRectangleView.swift; sourceTree = "<group>"; };
+		DFAEC2C32ABDE74800D5C143 /* LoginWithView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +143,9 @@
 				5842FD1D2ABB73E6009D719C /* ContentView.swift */,
 				5842FD462ABB74A8009D719C /* SplashScreenView.swift */,
 				5807984E2ABB7A1A00CD1500 /* LoginScreenView.swift */,
-				580798522ABB820A00CD1500 /* TextField1.swift */,
+				580798522ABB820A00CD1500 /* TextField1View.swift */,
+				DFAEC2C12ABDE4D800D5C143 /* DoubleRectangleView.swift */,
+				DFAEC2C32ABDE74800D5C143 /* LoginWithView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -208,7 +214,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					5842FD172ABB73E6009D719C = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -275,9 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5807984F2ABB7A1A00CD1500 /* LoginScreenView.swift in Sources */,
+				DFAEC2C42ABDE74800D5C143 /* LoginWithView.swift in Sources */,
 				5842FD1E2ABB73E6009D719C /* ContentView.swift in Sources */,
-				580798532ABB820A00CD1500 /* TextField1.swift in Sources */,
+				580798532ABB820A00CD1500 /* TextField1View.swift in Sources */,
 				5842FD1C2ABB73E6009D719C /* Mercado_DeliveryApp.swift in Sources */,
+				DFAEC2C22ABDE4D800D5C143 /* DoubleRectangleView.swift in Sources */,
 				5842FD472ABB74A8009D719C /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +359,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -411,6 +420,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
