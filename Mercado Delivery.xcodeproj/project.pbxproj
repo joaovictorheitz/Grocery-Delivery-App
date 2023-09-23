@@ -17,6 +17,9 @@
 		5842FD372ABB73EA009D719C /* Mercado_DeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842FD362ABB73EA009D719C /* Mercado_DeliveryUITests.swift */; };
 		5842FD392ABB73EA009D719C /* Mercado_DeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842FD382ABB73EA009D719C /* Mercado_DeliveryUITestsLaunchTests.swift */; };
 		5842FD472ABB74A8009D719C /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842FD462ABB74A8009D719C /* SplashScreenView.swift */; };
+		DF67D0B02ABE11CF008033C0 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = DF67D0AF2ABE11CF008033C0 /* Supabase */; };
+		DF85A2C92ABF5FED00065860 /* API_Supabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF85A2C82ABF5FED00065860 /* API_Supabase.swift */; };
+		DF85A2CF2ABF9D6700065860 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF85A2CE2ABF9D6700065860 /* LoginManager.swift */; };
 		DFAEC2C22ABDE4D800D5C143 /* DoubleRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAEC2C12ABDE4D800D5C143 /* DoubleRectangleView.swift */; };
 		DFAEC2C42ABDE74800D5C143 /* LoginWithView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAEC2C32ABDE74800D5C143 /* LoginWithView.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +55,8 @@
 		5842FD362ABB73EA009D719C /* Mercado_DeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercado_DeliveryUITests.swift; sourceTree = "<group>"; };
 		5842FD382ABB73EA009D719C /* Mercado_DeliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercado_DeliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5842FD462ABB74A8009D719C /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		DF85A2C82ABF5FED00065860 /* API_Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Supabase.swift; sourceTree = "<group>"; };
+		DF85A2CE2ABF9D6700065860 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
 		DFAEC2C12ABDE4D800D5C143 /* DoubleRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleRectangleView.swift; sourceTree = "<group>"; };
 		DFAEC2C32ABDE74800D5C143 /* LoginWithView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF67D0B02ABE11CF008033C0 /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +114,8 @@
 				5842FD1B2ABB73E6009D719C /* Mercado_DeliveryApp.swift */,
 				5842FD1F2ABB73E9009D719C /* Assets.xcassets */,
 				5842FD212ABB73E9009D719C /* Preview Content */,
+				DF85A2C82ABF5FED00065860 /* API_Supabase.swift */,
+				DF85A2CE2ABF9D6700065860 /* LoginManager.swift */,
 			);
 			path = "Mercado Delivery";
 			sourceTree = "<group>";
@@ -166,6 +174,9 @@
 			dependencies = (
 			);
 			name = "Mercado Delivery";
+			packageProductDependencies = (
+				DF67D0AF2ABE11CF008033C0 /* Supabase */,
+			);
 			productName = "Mercado Delivery";
 			productReference = 5842FD182ABB73E6009D719C /* Mercado Delivery.app */;
 			productType = "com.apple.product-type.application";
@@ -238,6 +249,9 @@
 				Base,
 			);
 			mainGroup = 5842FD0F2ABB73E6009D719C;
+			packageReferences = (
+				DF67D0AE2ABE11CF008033C0 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = 5842FD192ABB73E6009D719C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -282,8 +296,10 @@
 			files = (
 				5807984F2ABB7A1A00CD1500 /* LoginScreenView.swift in Sources */,
 				DFAEC2C42ABDE74800D5C143 /* LoginWithView.swift in Sources */,
+				DF85A2C92ABF5FED00065860 /* API_Supabase.swift in Sources */,
 				5842FD1E2ABB73E6009D719C /* ContentView.swift in Sources */,
 				580798532ABB820A00CD1500 /* TextField1View.swift in Sources */,
+				DF85A2CF2ABF9D6700065860 /* LoginManager.swift in Sources */,
 				5842FD1C2ABB73E6009D719C /* Mercado_DeliveryApp.swift in Sources */,
 				DFAEC2C22ABDE4D800D5C143 /* DoubleRectangleView.swift in Sources */,
 				5842FD472ABB74A8009D719C /* SplashScreenView.swift in Sources */,
@@ -613,6 +629,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF67D0AE2ABE11CF008033C0 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF67D0AF2ABE11CF008033C0 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF67D0AE2ABE11CF008033C0 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5842FD102ABB73E6009D719C /* Project object */;
 }

@@ -6,15 +6,21 @@
 //
 
 import SwiftUI
+import Supabase
 
 struct LoginScreenView: View {
-    public init(email: String = "", password: String = "") {
-        self.email = email
-        self.password = password
-    }
-    
     @State private var email: String
     @State private var password: String
+    @ObservedObject var loginManager: LoginManager
+    
+    public init(email: String = "", password: String = "", loginManager: LoginManager = LoginManager()) {
+        self.email = email
+        self.password = password
+        self.loginManager = loginManager
+    }
+    
+    static var supabase = SupabaseClient(supabaseURL: API.supabaseURL, supabaseKey: API.supabaseServiceKey)
+    
     
     var body: some View {
         ZStack {
@@ -24,7 +30,7 @@ struct LoginScreenView: View {
                 VStack {
                     Image("LoginBanner")
                         .frame(width: 413.37, height: 290.0)
-
+                    
                     Spacer()
                 }
                 .frame(height: 290)
@@ -47,14 +53,25 @@ struct LoginScreenView: View {
                         .padding(.vertical, 5.0)
                 }
                 
+                
                 HStack {
                     Button("Entrar") {
-                        
+                        Task {
+                            do {
+                                try await LoginScreenView.supabase.auth.signIn(email: email, password: password)
+                                let session = try await LoginScreenView.supabase.auth.session
+                                print("### Session Info: \(session)")
+                                loginManager.login()
+                            } catch {
+                                print("### Sign Up Error: \(error)")
+                            }
+                        }
                     }
                     .padding(12)
                     .frame(width:300)
                     .background(Color(red: 82/255, green: 204/255, blue: 109/255))
                     .cornerRadius(10)
+                    .foregroundColor(.white)
                 }
                 
                 HStack {
@@ -66,6 +83,7 @@ struct LoginScreenView: View {
             }
         }.edgesIgnoringSafeArea(.all)
     }
+    
 }
 
 struct LoginScreenView_Previews: PreviewProvider {

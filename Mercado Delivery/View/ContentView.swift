@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var loginManager = LoginManager()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        if loginManager.isLoggedIn {
+            Text("Hello World!")
+            
+            //ContentView()
+                //.frame(maxWidth: .infinity, maxHeight: .infinity)
+                //.transition(.move(edge: .leading))
+        } else {
+            LoginScreenView(loginManager: loginManager)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .transition(.move(edge: .leading))
         }
-        .padding()
     }
 }
 
