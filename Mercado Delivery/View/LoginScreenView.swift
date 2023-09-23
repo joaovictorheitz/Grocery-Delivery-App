@@ -11,12 +11,14 @@ import Supabase
 struct LoginScreenView: View {
     @State private var email: String
     @State private var password: String
+    @State private var loginInvalid: Bool
     @ObservedObject var loginManager: LoginManager
     
-    public init(email: String = "", password: String = "", loginManager: LoginManager = LoginManager()) {
+    public init(email: String = "", password: String = "", loginManager: LoginManager = LoginManager(), loginInvalid: Bool = false) {
         self.email = email
         self.password = password
         self.loginManager = loginManager
+        self.loginInvalid = loginInvalid
     }
     
     static var supabase = SupabaseClient(supabaseURL: API.supabaseURL, supabaseKey: API.supabaseServiceKey)
@@ -62,8 +64,10 @@ struct LoginScreenView: View {
                                 let session = try await LoginScreenView.supabase.auth.session
                                 print("### Session Info: \(session)")
                                 loginManager.login()
+                                loginInvalid = false
                             } catch {
                                 print("### Sign Up Error: \(error)")
+                                loginInvalid = true
                             }
                         }
                     }
@@ -72,6 +76,14 @@ struct LoginScreenView: View {
                     .background(Color(red: 82/255, green: 204/255, blue: 109/255))
                     .cornerRadius(10)
                     .foregroundColor(.white)
+                }
+                
+                if loginInvalid {
+                    HStack {
+                        Text("Credenciais Inválidas!")
+                            .foregroundColor(.red)
+                    }
+                    .padding()
                 }
                 
                 HStack {
