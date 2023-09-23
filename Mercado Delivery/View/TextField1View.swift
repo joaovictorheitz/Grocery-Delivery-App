@@ -23,6 +23,7 @@ struct TextField1View: View {
             } else {
                 TextField(label, text: value)
                     .frame(width: 300.0, height: 25)
+                    .autocorrectionDisabled()
                 Rectangle()
                     .frame(width: 300.0, height: 1.0)
                     .opacity(0.5)
@@ -35,6 +36,6 @@ struct TextField1View_Previews: PreviewProvider {
     @State static private var x: String = ""
     
     static var previews: some View {
-        TextField1View(label: "Email", value: $x, security: true)
+        TextField1View(label: "Email", value: $x, security: false)
     }
 }
