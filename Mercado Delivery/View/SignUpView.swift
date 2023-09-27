@@ -21,6 +21,7 @@ struct SignUpView: View {
     }
     
     var body: some View {
+        
         ZStack {
             VStack(spacing: 25) {
                 HStack {
@@ -48,6 +49,13 @@ struct SignUpView: View {
                     .background(Color(red: 82/255, green: 204/255, blue: 109/255))
                     .cornerRadius(10)
                     .foregroundColor(.white)
+                }
+                
+                if loginManager.invalidEmailCheck(email: email) {
+                    HStack {
+                        Text("E-mail Inválido!")
+                            .foregroundColor(.red)
+                    }
                 }
                 
                 Spacer()

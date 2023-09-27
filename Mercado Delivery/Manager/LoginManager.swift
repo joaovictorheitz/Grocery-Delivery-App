@@ -18,4 +18,14 @@ class LoginManager : ObservableObject {
             }
         }
     }
+    
+    func invalidEmailCheck(email: String) -> Bool {
+        if email != "" {
+            if email.contains(" ") || email.contains("@") == false || email.contains(".") == false {
+                return true
+            }
+        }
+        
+        return false
+    }
 }
