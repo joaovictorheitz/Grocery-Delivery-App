@@ -11,21 +11,22 @@ struct TextField1View: View {
     public var label: String
     public var value: Binding<String>
     public var security: Bool
+    public var width: Double? = 300
     
     var body: some View {
         VStack {
             if(security) {
                 SecureField(label, text: value)
-                    .frame(width: 300, height: 25)
+                    .frame(width: width!, height: 25)
                 Rectangle()
-                    .frame(width: 300, height: 1.0)
+                    .frame(width: width!, height: 1.0)
                     .opacity(0.5)
             } else {
                 TextField(label, text: value)
-                    .frame(width: 300.0, height: 25)
+                    .frame(width: width!, height: 25)
                     .autocorrectionDisabled()
                 Rectangle()
-                    .frame(width: 300.0, height: 1.0)
+                    .frame(width: width!, height: 1.0)
                     .opacity(0.5)
             }
         }

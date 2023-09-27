@@ -22,6 +22,7 @@
 		DF85A2CF2ABF9D6700065860 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF85A2CE2ABF9D6700065860 /* LoginManager.swift */; };
 		DFAEC2C22ABDE4D800D5C143 /* DoubleRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAEC2C12ABDE4D800D5C143 /* DoubleRectangleView.swift */; };
 		DFAEC2C42ABDE74800D5C143 /* LoginWithView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAEC2C32ABDE74800D5C143 /* LoginWithView.swift */; };
+		DFEFECE82AC4843B00F4CFEE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEFECE72AC4843B00F4CFEE /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		DF85A2CE2ABF9D6700065860 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
 		DFAEC2C12ABDE4D800D5C143 /* DoubleRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleRectangleView.swift; sourceTree = "<group>"; };
 		DFAEC2C32ABDE74800D5C143 /* LoginWithView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithView.swift; sourceTree = "<group>"; };
+		DFEFECE72AC4843B00F4CFEE /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,12 +112,11 @@
 		5842FD1A2ABB73E6009D719C /* Mercado Delivery */ = {
 			isa = PBXGroup;
 			children = (
+				DFEFECE62AC4830B00F4CFEE /* Manager */,
 				5842FD452ABB73F5009D719C /* View */,
 				5842FD1B2ABB73E6009D719C /* Mercado_DeliveryApp.swift */,
 				5842FD1F2ABB73E9009D719C /* Assets.xcassets */,
 				5842FD212ABB73E9009D719C /* Preview Content */,
-				DF85A2C82ABF5FED00065860 /* API_Supabase.swift */,
-				DF85A2CE2ABF9D6700065860 /* LoginManager.swift */,
 			);
 			path = "Mercado Delivery";
 			sourceTree = "<group>";
@@ -154,8 +155,18 @@
 				580798522ABB820A00CD1500 /* TextField1View.swift */,
 				DFAEC2C12ABDE4D800D5C143 /* DoubleRectangleView.swift */,
 				DFAEC2C32ABDE74800D5C143 /* LoginWithView.swift */,
+				DFEFECE72AC4843B00F4CFEE /* SignUpView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		DFEFECE62AC4830B00F4CFEE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DF85A2C82ABF5FED00065860 /* API_Supabase.swift */,
+				DF85A2CE2ABF9D6700065860 /* LoginManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +311,7 @@
 				5842FD1E2ABB73E6009D719C /* ContentView.swift in Sources */,
 				580798532ABB820A00CD1500 /* TextField1View.swift in Sources */,
 				DF85A2CF2ABF9D6700065860 /* LoginManager.swift in Sources */,
+				DFEFECE82AC4843B00F4CFEE /* SignUpView.swift in Sources */,
 				5842FD1C2ABB73E6009D719C /* Mercado_DeliveryApp.swift in Sources */,
 				DFAEC2C22ABDE4D800D5C143 /* DoubleRectangleView.swift in Sources */,
 				5842FD472ABB74A8009D719C /* SplashScreenView.swift in Sources */,
