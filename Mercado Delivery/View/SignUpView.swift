@@ -38,11 +38,13 @@ struct SignUpView: View {
                 }
                 
                 HStack {
-                    Button("Cadastra-se") {
+                    Button(action: {
                         print("teste")
+                    }) {
+                        Text("Cadastre-se")
+                            .frame(width:290)
                     }
                     .padding(12)
-                    .frame(width:300)
                     .background(Color(red: 82/255, green: 204/255, blue: 109/255))
                     .cornerRadius(10)
                     .foregroundColor(.white)

@@ -56,9 +56,8 @@ struct LoginScreenView: View {
                             .padding(.vertical, 5.0)
                     }
                     
-                    
                     HStack {
-                        Button("Entrar") {
+                        Button(action: {
                             Task {
                                 do {
                                     try await LoginScreenView.supabase.auth.signIn(email: email, password: password)
@@ -71,9 +70,11 @@ struct LoginScreenView: View {
                                     loginInvalid = true
                                 }
                             }
+                        }) {
+                            Text("Entrar")
+                                .frame(width:275)
                         }
                         .padding(12)
-                        .frame(width:300)
                         .background(Color(red: 82/255, green: 204/255, blue: 109/255))
                         .cornerRadius(10)
                         .foregroundColor(.white)
