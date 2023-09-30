@@ -28,6 +28,7 @@
 		DFC65ADD2AC894AB007ADFB1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC65ADC2AC894AB007ADFB1 /* HeaderView.swift */; };
 		DFC65AE02AC8968B007ADFB1 /* ACarousel in Frameworks */ = {isa = PBXBuildFile; productRef = DFC65ADF2AC8968B007ADFB1 /* ACarousel */; };
 		DFC65AE22AC896A8007ADFB1 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC65AE12AC896A8007ADFB1 /* CarouselView.swift */; };
+		DFC65AE42AC8A24D007ADFB1 /* CategoryButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC65AE32AC8A24D007ADFB1 /* CategoryButtonView.swift */; };
 		DFEFECE82AC4843B00F4CFEE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEFECE72AC4843B00F4CFEE /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,7 @@
 		DFC65AD92AC88772007ADFB1 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../../../../../../../../../var/folders/4j/hkbk4bzd7sjbsvwph40_vt940000gp/T/MicrosoftEdgeDownloads/df434e6f-52bd-4c6d-b85b-e3846ef136a1/Roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		DFC65ADC2AC894AB007ADFB1 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		DFC65AE12AC896A8007ADFB1 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		DFC65AE32AC8A24D007ADFB1 /* CategoryButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButtonView.swift; sourceTree = "<group>"; };
 		DFEFECE72AC4843B00F4CFEE /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -191,6 +193,7 @@
 				DFAEC2C32ABDE74800D5C143 /* LoginWithView.swift */,
 				DFC65ADC2AC894AB007ADFB1 /* HeaderView.swift */,
 				DFC65AE12AC896A8007ADFB1 /* CarouselView.swift */,
+				DFC65AE32AC8A24D007ADFB1 /* CategoryButtonView.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				DFAEC2C22ABDE4D800D5C143 /* DoubleRectangleView.swift in Sources */,
 				5842FD472ABB74A8009D719C /* SplashScreenView.swift in Sources */,
 				DFC65ADD2AC894AB007ADFB1 /* HeaderView.swift in Sources */,
+				DFC65AE42AC8A24D007ADFB1 /* CategoryButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
