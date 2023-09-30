@@ -26,6 +26,8 @@
 		DFB06DB82AC86D9100C28241 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB06DB72AC86D9100C28241 /* HomeView.swift */; };
 		DFC65ADA2AC88772007ADFB1 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFC65AD92AC88772007ADFB1 /* Roboto-Bold.ttf */; };
 		DFC65ADD2AC894AB007ADFB1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC65ADC2AC894AB007ADFB1 /* HeaderView.swift */; };
+		DFC65AE02AC8968B007ADFB1 /* ACarousel in Frameworks */ = {isa = PBXBuildFile; productRef = DFC65ADF2AC8968B007ADFB1 /* ACarousel */; };
+		DFC65AE22AC896A8007ADFB1 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC65AE12AC896A8007ADFB1 /* CarouselView.swift */; };
 		DFEFECE82AC4843B00F4CFEE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEFECE72AC4843B00F4CFEE /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +71,7 @@
 		DFC65AD72AC88691007ADFB1 /* Mercado-Delivery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Mercado-Delivery-Info.plist"; sourceTree = SOURCE_ROOT; };
 		DFC65AD92AC88772007ADFB1 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../../../../../../../../../var/folders/4j/hkbk4bzd7sjbsvwph40_vt940000gp/T/MicrosoftEdgeDownloads/df434e6f-52bd-4c6d-b85b-e3846ef136a1/Roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		DFC65ADC2AC894AB007ADFB1 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DFC65AE12AC896A8007ADFB1 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		DFEFECE72AC4843B00F4CFEE /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC65AE02AC8968B007ADFB1 /* ACarousel in Frameworks */,
 				DF67D0B02ABE11CF008033C0 /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +190,7 @@
 				DFAEC2C12ABDE4D800D5C143 /* DoubleRectangleView.swift */,
 				DFAEC2C32ABDE74800D5C143 /* LoginWithView.swift */,
 				DFC65ADC2AC894AB007ADFB1 /* HeaderView.swift */,
+				DFC65AE12AC896A8007ADFB1 /* CarouselView.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 			name = "Mercado Delivery";
 			packageProductDependencies = (
 				DF67D0AF2ABE11CF008033C0 /* Supabase */,
+				DFC65ADF2AC8968B007ADFB1 /* ACarousel */,
 			);
 			productName = "Mercado Delivery";
 			productReference = 5842FD182ABB73E6009D719C /* Mercado Delivery.app */;
@@ -300,6 +306,7 @@
 			mainGroup = 5842FD0F2ABB73E6009D719C;
 			packageReferences = (
 				DF67D0AE2ABE11CF008033C0 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+				DFC65ADE2AC8968B007ADFB1 /* XCRemoteSwiftPackageReference "ACarousel" */,
 			);
 			productRefGroup = 5842FD192ABB73E6009D719C /* Products */;
 			projectDirPath = "";
@@ -348,6 +355,7 @@
 				DF03420E2AC72F29004640A6 /* ForgotPasswordView.swift in Sources */,
 				DFAEC2C42ABDE74800D5C143 /* LoginWithView.swift in Sources */,
 				DF85A2C92ABF5FED00065860 /* API_Supabase.swift in Sources */,
+				DFC65AE22AC896A8007ADFB1 /* CarouselView.swift in Sources */,
 				5842FD1E2ABB73E6009D719C /* ContentView.swift in Sources */,
 				580798532ABB820A00CD1500 /* TextField1View.swift in Sources */,
 				DF85A2CF2ABF9D6700065860 /* LoginManager.swift in Sources */,
@@ -695,6 +703,14 @@
 				minimumVersion = 0.3.0;
 			};
 		};
+		DFC65ADE2AC8968B007ADFB1 /* XCRemoteSwiftPackageReference "ACarousel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JWAutumn/ACarousel";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -702,6 +718,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DF67D0AE2ABE11CF008033C0 /* XCRemoteSwiftPackageReference "supabase-swift" */;
 			productName = Supabase;
+		};
+		DFC65ADF2AC8968B007ADFB1 /* ACarousel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DFC65ADE2AC8968B007ADFB1 /* XCRemoteSwiftPackageReference "ACarousel" */;
+			productName = ACarousel;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

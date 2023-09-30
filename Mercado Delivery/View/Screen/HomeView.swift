@@ -9,14 +9,18 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        ZStack {
-            VStack {
-                HeaderView()
-                
-                Spacer()
+        NavigationStack {
+            ZStack {
+                VStack {
+                    HeaderView()
+                    
+                    CarouselView()
+                    
+                    Spacer()
+                }
             }
+            .edgesIgnoringSafeArea(.all)
         }
-        .edgesIgnoringSafeArea(.all)
     }
 }
 
