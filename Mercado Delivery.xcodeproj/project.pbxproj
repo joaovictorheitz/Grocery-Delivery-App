@@ -29,6 +29,8 @@
 		DFC65AE02AC8968B007ADFB1 /* ACarousel in Frameworks */ = {isa = PBXBuildFile; productRef = DFC65ADF2AC8968B007ADFB1 /* ACarousel */; };
 		DFC65AE22AC896A8007ADFB1 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC65AE12AC896A8007ADFB1 /* CarouselView.swift */; };
 		DFC65AE42AC8A24D007ADFB1 /* CategoryButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC65AE32AC8A24D007ADFB1 /* CategoryButtonView.swift */; };
+		DFC65AE62AC8B36D007ADFB1 /* TabView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC65AE52AC8B36D007ADFB1 /* TabView1.swift */; };
+		DFC65AE82AC8B4CC007ADFB1 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC65AE72AC8B4CC007ADFB1 /* SearchView.swift */; };
 		DFEFECE82AC4843B00F4CFEE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEFECE72AC4843B00F4CFEE /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +76,8 @@
 		DFC65ADC2AC894AB007ADFB1 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		DFC65AE12AC896A8007ADFB1 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		DFC65AE32AC8A24D007ADFB1 /* CategoryButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButtonView.swift; sourceTree = "<group>"; };
+		DFC65AE52AC8B36D007ADFB1 /* TabView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView1.swift; sourceTree = "<group>"; };
+		DFC65AE72AC8B4CC007ADFB1 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		DFEFECE72AC4843B00F4CFEE /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -181,6 +185,8 @@
 				5807984E2ABB7A1A00CD1500 /* LoginScreenView.swift */,
 				5842FD1D2ABB73E6009D719C /* ContentView.swift */,
 				DFB06DB72AC86D9100C28241 /* HomeView.swift */,
+				DFC65AE52AC8B36D007ADFB1 /* TabView1.swift */,
+				DFC65AE72AC8B4CC007ADFB1 /* SearchView.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -360,12 +366,14 @@
 				DF85A2C92ABF5FED00065860 /* API_Supabase.swift in Sources */,
 				DFC65AE22AC896A8007ADFB1 /* CarouselView.swift in Sources */,
 				5842FD1E2ABB73E6009D719C /* ContentView.swift in Sources */,
+				DFC65AE82AC8B4CC007ADFB1 /* SearchView.swift in Sources */,
 				580798532ABB820A00CD1500 /* TextField1View.swift in Sources */,
 				DF85A2CF2ABF9D6700065860 /* LoginManager.swift in Sources */,
 				DFEFECE82AC4843B00F4CFEE /* SignUpView.swift in Sources */,
 				5842FD1C2ABB73E6009D719C /* Mercado_DeliveryApp.swift in Sources */,
 				DFB06DB82AC86D9100C28241 /* HomeView.swift in Sources */,
 				DFAEC2C22ABDE4D800D5C143 /* DoubleRectangleView.swift in Sources */,
+				DFC65AE62AC8B36D007ADFB1 /* TabView1.swift in Sources */,
 				5842FD472ABB74A8009D719C /* SplashScreenView.swift in Sources */,
 				DFC65ADD2AC894AB007ADFB1 /* HeaderView.swift in Sources */,
 				DFC65AE42AC8A24D007ADFB1 /* CategoryButtonView.swift in Sources */,

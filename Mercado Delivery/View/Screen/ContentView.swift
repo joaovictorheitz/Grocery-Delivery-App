@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         if loginManager.isLoggedIn {
-            HomeView()
+            TabView1()
         } else {
             LoginScreenView(loginManager: loginManager)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)

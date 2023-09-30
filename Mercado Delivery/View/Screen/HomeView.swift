@@ -14,40 +14,43 @@ struct HomeView: View {
         let categories3 = [(key: "Petshop", "Petshop"), (key: "Higiene", "Higiene"),(key: "Congelados", "Congelados")]
         
         NavigationStack {
+            
+            
             ZStack {
                 VStack {
                     HeaderView()
                     
-                    CarouselView()
-                    
-                    VStack {
-                        HStack {
-                            ForEach(categories1, id: \.key) { key, value in
-                                NavigationLink(destination: ContentView(), label: {
-                                    CategoryButtonView(title: key, image: value)
-                                })
-                            }
-                        }
-                        .padding(.bottom)
+                    ScrollView() {
+                        CarouselView()
                         
-                        HStack {
-                            ForEach(categories2, id: \.key) { key, value in
-                                NavigationLink(destination: ContentView(), label: {
-                                    CategoryButtonView(title: key, image: value)
-                                })
+                        VStack {
+                            HStack {
+                                ForEach(categories1, id: \.key) { key, value in
+                                    NavigationLink(destination: ContentView(), label: {
+                                        CategoryButtonView(title: key, image: value)
+                                    })
+                                }
                             }
-                        }
-                        .padding(.bottom)
-                        
-                        HStack {
-                            ForEach(categories3, id: \.key) { key, value in
-                                NavigationLink(destination: ContentView(), label: {
-                                    CategoryButtonView(title: key, image: value)
-                                })
+                            .padding(.bottom)
+                            
+                            HStack {
+                                ForEach(categories2, id: \.key) { key, value in
+                                    NavigationLink(destination: ContentView(), label: {
+                                        CategoryButtonView(title: key, image: value)
+                                    })
+                                }
                             }
+                            .padding(.bottom)
+                            
+                            HStack {
+                                ForEach(categories3, id: \.key) { key, value in
+                                    NavigationLink(destination: ContentView(), label: {
+                                        CategoryButtonView(title: key, image: value)
+                                    })
+                                }
+                            }
+                            .padding(.bottom)
                         }
-                        .padding(.bottom)
-                        
                     }
                     
                     Spacer()
