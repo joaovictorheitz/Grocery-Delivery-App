@@ -23,6 +23,9 @@
 		DF85A2CF2ABF9D6700065860 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF85A2CE2ABF9D6700065860 /* LoginManager.swift */; };
 		DFAEC2C22ABDE4D800D5C143 /* DoubleRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAEC2C12ABDE4D800D5C143 /* DoubleRectangleView.swift */; };
 		DFAEC2C42ABDE74800D5C143 /* LoginWithView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAEC2C32ABDE74800D5C143 /* LoginWithView.swift */; };
+		DFB06DB82AC86D9100C28241 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB06DB72AC86D9100C28241 /* HomeView.swift */; };
+		DFC65ADA2AC88772007ADFB1 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFC65AD92AC88772007ADFB1 /* Roboto-Bold.ttf */; };
+		DFC65ADD2AC894AB007ADFB1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC65ADC2AC894AB007ADFB1 /* HeaderView.swift */; };
 		DFEFECE82AC4843B00F4CFEE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEFECE72AC4843B00F4CFEE /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +65,10 @@
 		DF85A2CE2ABF9D6700065860 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
 		DFAEC2C12ABDE4D800D5C143 /* DoubleRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleRectangleView.swift; sourceTree = "<group>"; };
 		DFAEC2C32ABDE74800D5C143 /* LoginWithView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithView.swift; sourceTree = "<group>"; };
+		DFB06DB72AC86D9100C28241 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DFC65AD72AC88691007ADFB1 /* Mercado-Delivery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Mercado-Delivery-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DFC65AD92AC88772007ADFB1 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../../../../../../../../../var/folders/4j/hkbk4bzd7sjbsvwph40_vt940000gp/T/MicrosoftEdgeDownloads/df434e6f-52bd-4c6d-b85b-e3846ef136a1/Roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		DFC65ADC2AC894AB007ADFB1 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		DFEFECE72AC4843B00F4CFEE /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,10 +121,12 @@
 		5842FD1A2ABB73E6009D719C /* Mercado Delivery */ = {
 			isa = PBXGroup;
 			children = (
+				DFC65AD72AC88691007ADFB1 /* Mercado-Delivery-Info.plist */,
 				DFEFECE62AC4830B00F4CFEE /* Manager */,
 				5842FD452ABB73F5009D719C /* View */,
 				5842FD1B2ABB73E6009D719C /* Mercado_DeliveryApp.swift */,
 				5842FD1F2ABB73E9009D719C /* Assets.xcassets */,
+				DFC65AD82AC88754007ADFB1 /* Fonts */,
 				5842FD212ABB73E9009D719C /* Preview Content */,
 			);
 			path = "Mercado Delivery";
@@ -165,6 +174,7 @@
 				5842FD462ABB74A8009D719C /* SplashScreenView.swift */,
 				5807984E2ABB7A1A00CD1500 /* LoginScreenView.swift */,
 				5842FD1D2ABB73E6009D719C /* ContentView.swift */,
+				DFB06DB72AC86D9100C28241 /* HomeView.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -175,8 +185,17 @@
 				580798522ABB820A00CD1500 /* TextField1View.swift */,
 				DFAEC2C12ABDE4D800D5C143 /* DoubleRectangleView.swift */,
 				DFAEC2C32ABDE74800D5C143 /* LoginWithView.swift */,
+				DFC65ADC2AC894AB007ADFB1 /* HeaderView.swift */,
 			);
 			path = Widgets;
+			sourceTree = "<group>";
+		};
+		DFC65AD82AC88754007ADFB1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DFC65AD92AC88772007ADFB1 /* Roboto-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		DFEFECE62AC4830B00F4CFEE /* Manager */ = {
@@ -300,6 +319,7 @@
 			files = (
 				5842FD232ABB73E9009D719C /* Preview Assets.xcassets in Resources */,
 				5842FD202ABB73E9009D719C /* Assets.xcassets in Resources */,
+				DFC65ADA2AC88772007ADFB1 /* Roboto-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,8 +353,10 @@
 				DF85A2CF2ABF9D6700065860 /* LoginManager.swift in Sources */,
 				DFEFECE82AC4843B00F4CFEE /* SignUpView.swift in Sources */,
 				5842FD1C2ABB73E6009D719C /* Mercado_DeliveryApp.swift in Sources */,
+				DFB06DB82AC86D9100C28241 /* HomeView.swift in Sources */,
 				DFAEC2C22ABDE4D800D5C143 /* DoubleRectangleView.swift in Sources */,
 				5842FD472ABB74A8009D719C /* SplashScreenView.swift in Sources */,
+				DFC65ADD2AC894AB007ADFB1 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +520,7 @@
 				DEVELOPMENT_TEAM = GC829MX293;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mercado-Delivery-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -527,6 +550,7 @@
 				DEVELOPMENT_TEAM = GC829MX293;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mercado-Delivery-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

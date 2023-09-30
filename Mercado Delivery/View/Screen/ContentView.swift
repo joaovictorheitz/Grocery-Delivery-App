@@ -12,11 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         if loginManager.isLoggedIn {
-            Text("Hello World!")
-            
-            //ContentView()
-                //.frame(maxWidth: .infinity, maxHeight: .infinity)
-                //.transition(.move(edge: .leading))
+            HomeView()
         } else {
             LoginScreenView(loginManager: loginManager)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
