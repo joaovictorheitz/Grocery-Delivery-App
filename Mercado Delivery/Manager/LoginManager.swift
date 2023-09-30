@@ -21,11 +21,26 @@ class LoginManager : ObservableObject {
     
     func invalidEmailCheck(email: String) -> Bool {
         if email != "" {
-            if email.contains(" ") || email.contains("@") == false || email.contains(".") == false {
+            if email.contains(" ") || !email.contains("@") || !email.contains(".") {
                 return true
             }
         }
-        
         return false
+    }
+    
+    func invalidVerifyPass(pass: String, verifyPass: String) -> Bool {
+        if pass != verifyPass {
+            return false
+        } else {
+            return true
+        }
+    }
+    
+    func verifyParameters(email: String, pass: String, verifyPass: String) -> Bool {
+        if !invalidEmailCheck(email: email) && !invalidVerifyPass(pass: pass, verifyPass: verifyPass) {
+            return true
+        } else {
+            return false
+        }
     }
 }

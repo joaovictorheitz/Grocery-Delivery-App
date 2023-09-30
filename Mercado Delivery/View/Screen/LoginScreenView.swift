@@ -23,7 +23,6 @@ struct LoginScreenView: View {
     
     static var supabase = SupabaseClient(supabaseURL: API.supabaseURL, supabaseKey: API.supabaseServiceKey)
     
-    
     var body: some View {
         NavigationStack{
             ZStack {
@@ -51,9 +50,11 @@ struct LoginScreenView: View {
                             .padding(.bottom)
                         TextField1View(label: "Senha", value: $password, security: true)
                         
-                        Text("Esqueceu sua senha?")
-                            .foregroundColor(Color(red: 82/255, green: 204/255, blue: 109/255))
-                            .padding(.vertical, 5.0)
+                        NavigationLink(destination: ForgotPasswordView(), label: {
+                            Text("Esqueceu sua senha?")
+                                .foregroundColor(Color(red: 82/255, green: 204/255, blue: 109/255))
+                                .padding(.vertical, 5.0)
+                        })
                     }
                     
                     HStack {

@@ -17,6 +17,7 @@
 		5842FD372ABB73EA009D719C /* Mercado_DeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842FD362ABB73EA009D719C /* Mercado_DeliveryUITests.swift */; };
 		5842FD392ABB73EA009D719C /* Mercado_DeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842FD382ABB73EA009D719C /* Mercado_DeliveryUITestsLaunchTests.swift */; };
 		5842FD472ABB74A8009D719C /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842FD462ABB74A8009D719C /* SplashScreenView.swift */; };
+		DF03420E2AC72F29004640A6 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF03420D2AC72F29004640A6 /* ForgotPasswordView.swift */; };
 		DF67D0B02ABE11CF008033C0 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = DF67D0AF2ABE11CF008033C0 /* Supabase */; };
 		DF85A2C92ABF5FED00065860 /* API_Supabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF85A2C82ABF5FED00065860 /* API_Supabase.swift */; };
 		DF85A2CF2ABF9D6700065860 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF85A2CE2ABF9D6700065860 /* LoginManager.swift */; };
@@ -56,6 +57,7 @@
 		5842FD362ABB73EA009D719C /* Mercado_DeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercado_DeliveryUITests.swift; sourceTree = "<group>"; };
 		5842FD382ABB73EA009D719C /* Mercado_DeliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercado_DeliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5842FD462ABB74A8009D719C /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		DF03420D2AC72F29004640A6 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		DF85A2C82ABF5FED00065860 /* API_Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Supabase.swift; sourceTree = "<group>"; };
 		DF85A2CE2ABF9D6700065860 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
 		DFAEC2C12ABDE4D800D5C143 /* DoubleRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleRectangleView.swift; sourceTree = "<group>"; };
@@ -149,15 +151,32 @@
 		5842FD452ABB73F5009D719C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5842FD1D2ABB73E6009D719C /* ContentView.swift */,
+				DF03420F2AC74B8F004640A6 /* Screen */,
+				DF0342102AC74BC9004640A6 /* Widgets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF03420F2AC74B8F004640A6 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				DFEFECE72AC4843B00F4CFEE /* SignUpView.swift */,
+				DF03420D2AC72F29004640A6 /* ForgotPasswordView.swift */,
 				5842FD462ABB74A8009D719C /* SplashScreenView.swift */,
 				5807984E2ABB7A1A00CD1500 /* LoginScreenView.swift */,
+				5842FD1D2ABB73E6009D719C /* ContentView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		DF0342102AC74BC9004640A6 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
 				580798522ABB820A00CD1500 /* TextField1View.swift */,
 				DFAEC2C12ABDE4D800D5C143 /* DoubleRectangleView.swift */,
 				DFAEC2C32ABDE74800D5C143 /* LoginWithView.swift */,
-				DFEFECE72AC4843B00F4CFEE /* SignUpView.swift */,
 			);
-			path = View;
+			path = Widgets;
 			sourceTree = "<group>";
 		};
 		DFEFECE62AC4830B00F4CFEE /* Manager */ = {
@@ -306,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5807984F2ABB7A1A00CD1500 /* LoginScreenView.swift in Sources */,
+				DF03420E2AC72F29004640A6 /* ForgotPasswordView.swift in Sources */,
 				DFAEC2C42ABDE74800D5C143 /* LoginWithView.swift in Sources */,
 				DF85A2C92ABF5FED00065860 /* API_Supabase.swift in Sources */,
 				5842FD1E2ABB73E6009D719C /* ContentView.swift in Sources */,
